@@ -38,7 +38,7 @@ public class MainController {
 			
 		}
 		
-		//_________________________________________Handle Add Product Form_________________________________________
+		//_________________________________________ Add Product Form Handler_________________________________________
 		
 		@RequestMapping(value="/handle-product",method=RequestMethod.POST)
 		public RedirectView handleProduct(@ModelAttribute Product product,HttpServletRequest request) {
@@ -59,6 +59,16 @@ public class MainController {
 			redirectView.setUrl(request.getContextPath()+"/");
 			return redirectView;
 			
+		}
+		
+		//____________________________________________________update Handler_________________________________________________________
+		@RequestMapping("/update/{productId}")
+		public String updateForm(@PathVariable("productId") int pid,Model model) {
+			
+			Product product=this.productDao.getSingleProduct(pid);
+			model.addAttribute("product",product);
+			
+			return "update_form";
 		}
 		
 		

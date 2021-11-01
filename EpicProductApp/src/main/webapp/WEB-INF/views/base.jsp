@@ -12,6 +12,8 @@
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
 	
+	<link rel="icon" href="https://static.vecteezy.com/system/resources/previews/000/587/678/original/vector-initial-e-letter-logo-with-swoosh-colored-red-and-black.jpg">
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
